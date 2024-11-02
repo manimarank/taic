@@ -1,2 +1,20 @@
-/node_modules/
-/.env.local
+# Dependency directories
+node_modules/
+.yarn/
+
+# Build output
+.next/
+
+# Config files
+.idea/
+.vscode/
+
+# Environment files
+.env*
+.env.local
+
+# Lock files
+yarn.lock
+
+# SSH Keys (should never be committed)
+*.ssh
