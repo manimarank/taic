@@ -13,8 +13,13 @@
     "@portabletext/react": "^3.0.11",
     "@prisma/client": "^5.9.1",
     "@sanity/image-url": "^1.0.2",
+    "@sanity/client": "^6.12.4",             // Added for @sanity dependencies
+    "@sanity/icons": "^2.8",                  // Added for @sanity dependencies
+    "@sanity/types": "^3.25",                 // Added for @sanity dependencies
+    "@sanity/ui": "^2.0.3",                   // Added for @sanity dependencies
     "axios": "^1.6.7",
     "bcrypt": "^5.1.1",
+    "csstype": "^3.0.10",                     // Added for goober's csstype dependency
     "date-fns": "^3.3.1",
     "formbold-react": "^1.0.5",
     "gray-matter": "^4.0.3",
