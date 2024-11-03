@@ -14,8 +14,8 @@ const Video = () => {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="How to transform the way you operate?"
+            paragraph="Discover how we can revolutionize your operations and drive success with tailored solutions."
             center
             mb="80px"
           />
@@ -25,7 +25,7 @@ const Video = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[770px] overflow-hidden rounded-md">
                 <div className="relative aspect-[77/40] items-center justify-center">
-                  <Image src="/images/video/video.jpg" alt="video image" fill />
+                  <Image src="/images/video/img_1.png" alt="video image" fill />
                   <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                     <button
                       aria-label="video play button"
@@ -57,7 +57,7 @@ const Video = () => {
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="3cPIdSfM2I0"
         onClose={() => setOpen(false)}
       />
     </>

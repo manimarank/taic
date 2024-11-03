@@ -33,7 +33,7 @@ export default async function Home() {
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
+
       {/* <section
         id="blog"
         className="bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28"
