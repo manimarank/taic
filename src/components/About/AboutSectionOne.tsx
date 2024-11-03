@@ -28,25 +28,23 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startups to Launch Faster."
-                paragraph="Designed specifically for SaaS startups, our comprehensive starter template package includes all the essential features and seamless integrations you require."
+                title="We Provide Best Services"
+                paragraph="At our foundation, we prioritize delivering exceptional services, setting a benchmark for excellence in all our pursuits. With a steadfast dedication to quality and ensuring client satisfaction."
                 mb="44px"
               />
 
               <div className="mb-12 max-w-[570px] lg:mb-0">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="MDX to Fully Functional Blog/Docs" />
-                    <List text="Tailwind CSS for UI Components" />
-                    <List text="Database Support with PlanetScale" />
-                    <List text="Next.js 13 + TypeScript" />
+                    <List text="AI Monitoring" />
+                    <List text="AI Deployment" />
+                    <List text="AI Development" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Sanity Integration for Blog" />
-                    <List text="Authentication using NextAuth.js" />
-                    <List text="Payment Integration with Stripe" />
-                    <List text="Rich Documentation and Setup Guide" />
+                    <List text="AI Discovery" />
+                    <List text="Consultation and Support" />
+                    <List text="Customized AI Solutions" />
                   </div>
                 </div>
               </div>
@@ -55,14 +53,14 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
+                  src="/images/services/ai-development.svg"
+                  alt="AI Development Service"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
+                  src="/images/services/ai-development-dark.svg"
+                  alt="AI Development Service Dark"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />

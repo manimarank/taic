@@ -142,7 +142,7 @@ const HeroStyleTwo = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-10 lg:mb-0">
               <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                A Complete Next.js Starter Template for SaaS Startups{" "}
+                Complete Next.js Starter Template for SaaS Startups{" "}
               </h1>
               <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                 This Next.js starter template is designed for SaaS startup
