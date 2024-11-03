@@ -15,7 +15,7 @@ import { getPosts } from "@/sanity/sanity-utils";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Startup Pro",
+  title: "Transformative AI",
   description: "This is Home for Startup Pro",
   // other metadata
 };

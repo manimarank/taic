@@ -217,15 +217,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Crafted by{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="nofollow noopener"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
+              Transformative AI Copyright 2025
             </p>
           </div>
         </div>
