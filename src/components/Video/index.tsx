@@ -25,7 +25,7 @@ const Video = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[770px] overflow-hidden rounded-md">
                 <div className="relative aspect-[77/40] items-center justify-center">
-                  <Image src="/images/video/img_1.png" alt="video image" fill />
+                  <Image src="/images/video/video.png" alt="video image" fill />
                   <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                     <button
                       aria-label="video play button"
