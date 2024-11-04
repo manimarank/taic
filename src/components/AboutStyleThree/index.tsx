@@ -61,29 +61,6 @@ const AboutStyleThree = () => {
           </div>
         </div>
 
-        <div className="mb-24 grid grid-cols-1 gap-8 lg:grid-cols-2">
-          <div className="w-full">
-            <Image src={visionImage} alt="Vision Image" />
-          </div>
-          <div className="w-full">
-            <h2 className="text-4xl font-bold text-center lg:text-left mb-6">Our Vision</h2>
-            <p className="text-lg text-body-color dark:text-body-color-dark">              
-              We harness artificial intelligence to revolutionize industries, empowering businesses with unmatched efficiency, deep insights, and exponential growth, driven by our multidisciplinary teams of data scientists, engineers, researchers, and domain experts who collaborate to create cutting-edge, customized AI solutions.
-            </p>
-          </div>
-        </div>
-        <div className="mb-24 grid grid-cols-1 gap-8 lg:grid-cols-2">
-          <div className="w-full">
-            <Image src={missionImage} alt="Mission Image" />
-          </div>
-          <div className="w-full">
-            <h2 className="text-4xl font-bold text-center lg:text-left mb-6">Our Mission</h2>
-            <p className="text-lg text-body-color dark:text-body-color-dark">
-              To develop cutting-edge AI technologies and solutions that are not only advanced and efficient but also ethical and transparent. We strive to transform businesses by providing tailored AI products and services that address specific industry challenges and drive sustainable success.
-            </p>
-          </div>
-        </div>
-
         <div>
           <div className="flex flex-wrap items-center justify-center">
             {brandsData.map((brand) => (
