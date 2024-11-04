@@ -3,43 +3,43 @@ import { Faq } from "@/types/faq";
 const faqData: Faq[] = [
   {
     id: 1,
-    ques: "What are startup templates?",
-    ans: "Startup templates are pre-designed frameworks that entrepreneurs can use to create their own business plans, pitch decks, financial models, and other necessary documents for starting a new venture. These templates can provide a starting point and help entrepreneurs save time and effort by providing a pre-designed structure to follow.",
+    ques: "What services does our company offer?",
+    ans: "We offer a range of AI solutions including AI consulting, custom AI development, data analytics, machine learning, natural language processing, and AI-driven automation to help businesses optimize operations and drive growth.",
   },
   {
     id: 2,
-    ques: "Are startup templates suitable for all types of businesses?",
-    ans: "No, startup templates may not be suitable for all types of businesses. The templates may vary depending on the industry, business model, and goals of the startup. It is important to choose a template that is relevant to your business and adapt it to your specific needs.",
+    ques: "How can AI benefit my business?",
+    ans: "AI can streamline processes, improve decision-making through data insights, enhance customer experiences with personalization, reduce costs through automation, and open new opportunities for innovation and growth.",
   },
   {
     id: 3,
-    ques: "Are startup templates free?",
-    ans: "Some startup templates are available for free, while others may require a fee. Free templates may offer basic designs and features, while paid templates may offer more advanced features, customization options, and support. It is important to evaluate your needs and budget before choosing a template.",
+    ques: "Which industries do we serve?",
+    ans: "We provide AI solutions across various industries including healthcare, finance, retail, manufacturing, energy, and more. Our solutions are tailored to meet the unique challenges and opportunities in each sector.",
   },
   {
     id: 4,
-    ques: "Can startup templates help secure funding for my business?",
-    ans: "While startup templates can help you create a solid business plan and pitch deck, securing funding for your business depends on various factors, including the strength of your idea, the market potential, your team's expertise, and your ability to execute your plan. A well-designed template can make a good first impression and help you present your ideas more effectively, but ultimately, the quality of your business idea and your pitch will determine your success in securing funding.",
+    ques: "How long does it take to implement an AI solution?",
+    ans: "The timeline for implementing an AI solution varies depending on the complexity and scope of the project. On average, it can take anywhere from a few weeks to several months. We work closely with clients to ensure a smooth and timely implementation.",
   },
   {
     id: 5,
-    ques: "Where can I find startup templates?",
-    ans: "Startup templates are available online, on websites such as Canva, HubSpot, and Business Plan Template. You can also find templates in business books and courses. It's important to choose a reputable source and evaluate the quality of the template before using it for your business.",
+    ques: "Do I need technical expertise to use your AI solutions?",
+    ans: "No, our solutions are designed to be user-friendly and accessible. We provide full support and training to ensure that you and your team can effectively leverage the AI tools without needing deep technical expertise.",
   },
   {
     id: 6,
-    ques: "Can startup templates be customized?",
-    ans: "Yes, most startup templates are customizable. You can edit the text, add or remove sections, change the colors and fonts, and adjust the design to fit your brand identity. Customizing the template can help you make it more unique and tailored to your specific needs.",
+    ques: "How secure are your AI solutions?",
+    ans: "We prioritize data security and compliance. Our solutions are built with robust security measures to protect your data, ensure privacy, and comply with industry regulations and standards.",
   },
   {
     id: 7,
-    ques: "How do I choose the right startup template for my business?",
-    ans: "To choose the right startup template for your business, you should consider your industry, business model, target audience, and goals. Look for templates that are relevant to your business and offer the features and design elements that you need. It's also important to choose a template that is easy to use and customize, and that fits your budget.",
+    ques: "Can AI integrate with our existing systems?",
+    ans: "Yes, our AI solutions are designed to integrate seamlessly with your existing systems, ensuring minimal disruption to your operations while enhancing functionality and performance.",
   },
   {
     id: 8,
-    ques: "Can I use a startup template if I have already started my business?",
-    ans: "Yes, you can use a startup template even if you have already started your business. Templates can be helpful in creating a business plan, financial projections, marketing strategy, and other important documents that you may need to review or update as your business evolves. Templates can also be useful in presenting your business to potential investors or partners.",
+    ques: "How do you ensure the quality of AI models?",
+    ans: "We use rigorous testing and validation processes, including real-world scenario simulations, to ensure our AI models deliver accurate, reliable, and high-quality results tailored to your business needs.",
   },
 ];
 
