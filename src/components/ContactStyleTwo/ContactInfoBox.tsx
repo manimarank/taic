@@ -6,16 +6,13 @@ const ContactInfoBox = () => {
           Contact Information
         </h2>
         <p className="mb-[60px] text-base leading-relaxed text-body-color">
-          Fill up the form and our Team will get back to you within 24 hours.
+          Get in touch with our AI Enabled Tteam.
         </p>
 
         <div className="space-y-[18px]">
           <p className="text-base text-body-color dark:text-body-color-dark">
             Email: info@transaitech.com
           </p>
-          #<p className="text-base text-body-color dark:text-body-color-dark">
-          #  Phone: 1234 567890
-          #</p>
           <p className="text-base text-body-color dark:text-body-color-dark">
             Address: P1 / Block I, Saih Shuaib 2, Dubai, UAE.
           </p>
