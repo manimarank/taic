@@ -59,7 +59,7 @@ const ContactFormBox = ({ formId }: { formId: string }) => {
                 htmlFor="text"
                 className="mb-3 block text-sm text-dark dark:text-white"
               >
-                Your Email
+                Your Subject
               </label>
               <input
                 type="name"
