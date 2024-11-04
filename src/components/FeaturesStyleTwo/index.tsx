@@ -8,8 +8,8 @@ const FeaturesStyleTwo = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Explore our amazing features"
-            paragraph="Our user-friendly interface and intuitive dashboards make it easy for you to explore and analyze your data, regardless of your technical expertise."
+            title="Explore our amazing AI driven solutions"
+            paragraph="Personalized strategies to integrate AI seamlessly into your business, Solutions designed to meet your unique challenges and Predictive models that enhance decision-making"
             center
             width="735px"
           />
