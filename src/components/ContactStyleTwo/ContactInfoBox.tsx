@@ -11,13 +11,13 @@ const ContactInfoBox = () => {
 
         <div className="space-y-[18px]">
           <p className="text-base text-body-color dark:text-body-color-dark">
-            Email: jamse@example.com
+            Email: info@transaitech.com
           </p>
+          #<p className="text-base text-body-color dark:text-body-color-dark">
+          #  Phone: 1234 567890
+          #</p>
           <p className="text-base text-body-color dark:text-body-color-dark">
-            Phone: 1234 567890
-          </p>
-          <p className="text-base text-body-color dark:text-body-color-dark">
-            Address: 7398 Smoke Ranch RoadLas Vegas.
+            Address: P1 / Block I, Saih Shuaib 2, Dubai, UAE.
           </p>
         </div>
 
