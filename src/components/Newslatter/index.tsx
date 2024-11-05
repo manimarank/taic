@@ -230,8 +230,8 @@ const NewsLatter = () => {
               Stay updated by subscribing to our newsletter.
             </h2>
             <p className="mb-9 text-base text-body-color dark:text-body-color-dark">
-              Stay informed and up-to-date with the latest news andupdates from
-              our company by subscribing to our newsletter.
+              Stay ahead with the latest updates and news from our company
+              subscribe to our newsletter today!
             </p>
 
             <div className="relative items-center justify-between rounded-sm sm:flex">
