@@ -13,7 +13,7 @@ const FaqPage = () => {
     <>
       <Breadcrumb
         pageName="FAQ Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Transformative AI leverages cutting-edge artificial intelligence to drive innovation across industries, offering tailored solutions that optimize operations, enhance decision-making, and unlock new opportunities for growth."
       />
 
       <FaqSection />
