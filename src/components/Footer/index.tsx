@@ -29,8 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  We are a leading AI solutions provider dedicated to transforming businesses with cutting-edge technologies. Our mission is to empower companies across industries with innovative AI-driven solutions that drive efficiency, growth, and success.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -127,10 +126,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/pricing"
+                      href="/services"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Services
                     </Link>
                   </li>
                   <li>
@@ -156,7 +155,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Terms of service
                     </Link>
                   </li>
                   <li>
@@ -172,7 +171,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Case studies
                     </Link>
                   </li>
                 </ul>
@@ -190,7 +189,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Contact Us
                     </Link>
                   </li>
                   <li>
@@ -198,7 +197,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Industries served
                     </Link>
                   </li>
                   <li>
@@ -206,7 +205,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Blogs
                     </Link>
                   </li>
                 </ul>

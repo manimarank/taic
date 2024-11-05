@@ -14,8 +14,8 @@ const SectionTwo = () => {
             <div className="mb-12 flex lg:mb-0 lg:justify-end">
               <div className="lg:text-right">
                 <SectionTitle
-                  title="Offers All Essential Integrations"
-                  paragraph="Designed specifically for SaaS startups, our comprehensive starter template package includes all the essential features and seamless integrations you require."
+                  title="Innovation, Excellence and Integrity"
+                  paragraph="We continuously push the boundaries of AI technology to provide innovative solutions that drive meaningful change."
                   width="570px"
                   mb="44px"
                 />

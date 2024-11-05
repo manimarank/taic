@@ -31,8 +31,8 @@ const SectionOne = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="wow fadeInUp">
               <SectionTitle
-                title="Create and Launch Your SaaS Product Faster."
-                paragraph="Designed specifically for SaaS startups, our comprehensive starter template package includes all the essential features and seamless integrations you require."
+                title="Vision"
+                paragraph="To be a global leader in AI-driven business solutions, transforming industries by unlocking the full potential of artificial intelligence to create a smarter, more efficient, and sustainable future."
                 width="570px"
                 mb="44px"
               />
@@ -41,7 +41,7 @@ const SectionOne = () => {
                 href="/about"
                 className="inline-block rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
               >
-                More About Us
+                Know Us
               </Link>
             </div>
           </div>

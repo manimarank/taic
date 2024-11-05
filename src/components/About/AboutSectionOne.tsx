@@ -29,7 +29,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="We Provide Best Services"
-                paragraph="At our foundation, we prioritize delivering exceptional services, setting a benchmark for excellence in all our pursuits. With a steadfast dedication to quality and ensuring client satisfaction."
+                paragraph="At our core, we are committed to delivering exceptional AI solutions, setting new standards of excellence and ensuring unparalleled quality and client satisfaction in every endeavor."
                 mb="44px"
               />
 

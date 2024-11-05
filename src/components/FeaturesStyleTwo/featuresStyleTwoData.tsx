@@ -24,9 +24,9 @@ const featuresStyleTwoData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Crafted for SaaS Startups",
+    title: "AI's Workforce Efficiency",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "AI technologies can increase workforce productivity by 40%, allowing teams to focus on strategic tasks while AI handles repetitive processes.",
   },
   {
     id: 2,
@@ -51,9 +51,9 @@ const featuresStyleTwoData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "High-quality Design",
+    title: "AI's Energy Efficiency",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "AI-powered energy management systems can reduce energy consumption by up to 20%, contributing to sustainable business practices.",
   },
   {
     id: 3,
@@ -78,9 +78,9 @@ const featuresStyleTwoData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "React 18, Next.js 13 and TS",
+    title: "Innovation",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Drives innovation by creating new solutions and business models.",
   },
   {
     id: 4,
@@ -105,9 +105,9 @@ const featuresStyleTwoData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Functional Blog and Docs",
+    title: "Enhanced Decision-Making",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "AI systems provide data-driven insights for more informed decisions.",
   },
   {
     id: 5,
@@ -132,9 +132,9 @@ const featuresStyleTwoData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Database, Auth and Payment",
+    title: "Efficiency and Automation",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "AI can automate repetitive tasks, increasing efficiency and reducing human error.",
   },
   {
     id: 6,
@@ -159,9 +159,9 @@ const featuresStyleTwoData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Two Unique Homepages",
+    title: "Revenue Boost from AI",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "AI-driven companies have seen an average revenue increase of 20-30% by optimizing decision-making and enhancing customer experiences.",
   },
 ];
 export default featuresStyleTwoData;

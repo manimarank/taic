@@ -11,8 +11,7 @@ const NewsLatterBox = () => {
         Subscribe to receive future updates
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
+        Join our community of innovators and stay updated with the latest trends, insights, and breakthroughs in the world of AI. As a subscriber, you’ll receive exclusive content
       </p>
       <div>
         <input
@@ -33,7 +32,7 @@ const NewsLatterBox = () => {
           className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
         />
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          No spam guaranteed, So please don’t send any spam mail.
+          We guarantee a spam-free experience, so please help us maintain it by refraining from sending any unwanted messages.
         </p>
       </div>
 

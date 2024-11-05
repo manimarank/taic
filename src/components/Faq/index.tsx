@@ -12,7 +12,8 @@ const FaqSection = () => {
         <div>
           <SectionTitle
             title="Frequently asked questions"
-            paragraph="Our user-friendly interface and intuitive dashboards make it easy for you to explore and analyze your data, regardless of your technical expertise."
+            paragraph="
+Our AI solutions feature user-friendly interfaces and intuitive dashboards, enabling you to effortlessly explore and analyze your data, regardless of your technical background."
             center
             width="735px"
             mb="60px"

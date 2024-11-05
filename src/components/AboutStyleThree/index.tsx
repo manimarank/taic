@@ -12,8 +12,8 @@ const AboutStyleThree = () => {
       <div className="container">
         <div>
           <SectionTitle
-            title="We’re on a mission to make building your business"
-            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero. "
+            title="AI-Driven Innovation for Tomorrow's Challenges."
+            paragraph="Transformative AI operates at the intersection of advanced technology and practical applications, leveraging machine learning, natural language processing, computer vision, and other AI techniques to create innovative solutions."
             center
             width="670px"
             mb="60px"
@@ -33,27 +33,27 @@ const AboutStyleThree = () => {
             <div className="md:pl-10">
               <div className="mb-10">
                 <h3 className="text-center text-[28px] font-semibold leading-snug text-black dark:text-white sm:text-[32px] lg:text-left">
-                  More than 15k+ companies use our products & services.
+                  From vision to execution, we bring AI innovation to life for your business.
                 </h3>
               </div>
 
               <div className="flex w-full items-center">
                 <div>
                   <h4 className="text-3xl font-bold text-black dark:text-white">
-                    14K+
+                    75+
                   </h4>
                   <p className="text-base text-body-color dark:text-body-color-dark">
-                    Happy Clients
+                    AI ready data sets
                   </p>
                 </div>
 
                 <span className="mx-9 inline-block h-[50px] w-px bg-stroke dark:bg-stroke-dark"></span>
                 <div>
                   <h4 className="text-3xl font-bold text-black dark:text-white">
-                    100%
+                    10+
                   </h4>
                   <p className="text-base text-body-color dark:text-body-color-dark">
-                    Satisfaction
+                    EMR Systems
                   </p>
                 </div>
               </div>
