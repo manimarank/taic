@@ -2,6 +2,7 @@ import SingleBlogStyleTwo from "@/components/BlogStyleTwo/SingleBlogStyleTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { getPosts } from "@/sanity/sanity-utils";
 import { Metadata } from "next";
+import BlogPage from "../blogs/page";
 
 export const metadata: Metadata = {
   title: "Blog Page 2 - Startup Pro",
@@ -32,3 +33,5 @@ export default async function BlogPageStyleTwo() {
     </>
   );
 }
+
+export default BlogPage;
