@@ -57,7 +57,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-auto max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -67,15 +67,15 @@ const Header = () => {
                 <Image
                   src="/images/logo/img2.png"
                   alt="logo"
-                  width={140}
-                  height={60}
+                  width={320}
+                  height={120}
                   className="hidden w-full dark:block"
                 />
                 <Image
                   src="/images/logo/img2.png"
                   alt="logo"
-                  width={140}
-                  height={60}
+                  width={320}
+                  height={120}
                   className="w-full dark:hidden"
                 />
               </Link>
