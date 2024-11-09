@@ -118,7 +118,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blogs"
+                      href="/resources/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
@@ -126,7 +126,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/services"
+                      href="/services/consulting"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Services
