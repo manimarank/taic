@@ -34,7 +34,7 @@ export default async function Home() {
       <AboutSectionTwo />
       <Testimonials />
 
-      {/* <section
+      { <section
         id="blog"
         className="bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28"
       >
@@ -52,7 +52,7 @@ export default async function Home() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section> }
       <Contact />
     </>
   );
