@@ -1,4 +1,4 @@
-import BlogList from "@/components/Blog/BlogList";
+import SingleBlog from "@/components/Blog/SingleBlog";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import NewsLatter from "@/components/Newslatter";
 import { Metadata } from "next";
