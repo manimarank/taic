@@ -18,7 +18,7 @@ const BlogPage = () => {
       />
 
       <div className="py-16 md:py-20 lg:py-24">
-        <BlogList />
+        <SingleBlog />
       </div>
 
       <div className="py-16 md:py-20 lg:py-24">
