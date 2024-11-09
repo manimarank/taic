@@ -9,7 +9,9 @@ export const metadata: Metadata = {
   // other metaDescription
 };
 
-const BlogPage = () => {
+export default async function BlogPage() {
+  const posts = await getPosts();
+
   return (
     <>
       <Breadcrumb
@@ -30,6 +32,4 @@ const BlogPage = () => {
     </>
   );
 }
-
-export default BlogPage;
 
