@@ -1,32 +1,42 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import NewsLatter from "@/components/Newslatter";
+import { getPosts } from "@/sanity/sanity-utils";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog Page - Startup Pro",
-  description: "Explore our latest articles and insights at Startup Pro",
-  // other metadata
+  description: "This is Home Blog page for Startup Pro",
+  // other metaDescription
 };
 
-const BlogPage = () => {
+export default async function BlogPage() {
+  let posts = [];
+  try {
+    posts = await getPosts();
+  } catch (error) {
+    console.error("Failed to fetch posts:", error);
+  }
+
   return (
     <>
       <Breadcrumb
-        pageName="Blog Page"
-        description="Stay updated with the latest industry news, insights, and articles tailored for startups and innovators."
+        pageName="Blog Grid"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
       />
 
-      <div className="py-16 md:py-20 lg:py-24">
-        <SingleBlog />
-      </div>
-
-      <div className="py-16 md:py-20 lg:py-24">
-        <NewsLatter />
-      </div>
+      <section className="pb-[120px] pt-[120px]">
+        <div className="container">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
+            {posts.length > 0 ? (
+              posts.map((blog, index) => (
+                <SingleBlog key={index} blog={blog} />
+              ))
+            ) : (
+              <p>No posts available at the moment.</p>
+            )}
+          </div>
+        </div>
+      </section>
     </>
   );
-};
-
-export default BlogPage;
-
+}
