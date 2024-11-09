@@ -9,17 +9,28 @@ export const metadata: Metadata = {
   // other metaDescription
 };
 
-const BlogPage = () => {
-    return (
-        <>
+export default async function BlogPage() {
+  const posts = await getPosts();
+
+  return (
+    <>
       <Breadcrumb
-        pageName="FAQ Page"
-        description="Transformative AI leverages cutting-edge artificial intelligence to drive innovation across industries, offering tailored solutions that optimize operations, enhance decision-making, and unlock new opportunities for growth."
+        pageName="Blog Grid"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
       />
 
-      <FaqSection />
+      <section className="pb-[120px] pt-[120px]">
+        <div className="container">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
+            {posts.length > 0 &&
+              posts.map((blog, index) => (
+                <SingleBlog key={index} blog={blog} />
+              ))}
+          </div>
+        </div>
+      </section>
     </>
   );
-};
+}
 
 export default BlogPage;
