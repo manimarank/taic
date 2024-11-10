@@ -28,9 +28,9 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Tackle your main business challenges with AI solutions built specifically to give you valuable insights, smart recommendations, and what-if analysis.
-                </p>
+                <h2 className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  AI SaaS for modern businesses
+                </h2>
                 <div className="flex items-center">
                   <a
                     href="/"
