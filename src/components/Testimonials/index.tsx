@@ -3,7 +3,7 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
 const testimonialData: Testimonial[] = [
-  /*{
+  {
     id: 1,
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
@@ -30,7 +30,7 @@ const testimonialData: Testimonial[] = [
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
-]; */
+];
 
 const Testimonials = () => {
   return (
@@ -174,4 +174,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+/* export default Testimonials; */
