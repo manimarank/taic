@@ -29,7 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  We are a leading AI solutions provider dedicated to transforming businesses with cutting-edge technologies. Our mission is to empower companies across industries with innovative AI-driven solutions that drive efficiency, growth, and success.
+                  Tackle your main business challenges with AI solutions built specifically to give you valuable insights, smart recommendations, and what-if analysis.
                 </p>
                 <div className="flex items-center">
                   <a

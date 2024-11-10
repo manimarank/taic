@@ -28,8 +28,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="We Provide Best Services"
-                paragraph="At our core, we are committed to delivering exceptional AI solutions, setting new standards of excellence and ensuring unparalleled quality and client satisfaction in every endeavor."
+                title="Our Services"
                 mb="44px"
               />
 

@@ -14,8 +14,8 @@ const Video = () => {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="How to transform the way you operate?"
-            paragraph="Discover how we can revolutionize your operations and drive success with tailored solutions."
+            title="make smarter and faster business decisions"
+            paragraph="Stay ahead of your competition, reduce costs, and boost profits with AI driven solutions"
             center
             mb="80px"
           />
