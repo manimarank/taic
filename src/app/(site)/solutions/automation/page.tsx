@@ -3,8 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Automation Solutions - AI Business Solutions",
-  description: "Discover how our AI-powered automation solutions can streamline business operations and drive efficiency.",
-  // other metadata
+  description: "Discover how intelligent automation can streamline operations, improve efficiency, and drive business growth.",
 };
 
 export default function AutomationPage() {
@@ -12,53 +11,197 @@ export default function AutomationPage() {
     <>
       <Breadcrumb
         pageName="Automation Solutions"
-        description="Empowering businesses with AI-driven automation to enhance productivity and efficiency."
+        description="Streamline your business operations with cutting-edge automation technologies."
       />
 
-      <section className="py-16 md:py-20 lg:py-24">
-        <div className="container">
-          <h1 className="text-3xl font-bold mb-4">AI-Powered Automation Solutions</h1>
-          <p className="mb-6">
-            In the era of digital transformation, automation has become a critical component for businesses seeking to improve operational efficiency and reduce costs. Our AI Business Company offers advanced automation solutions that harness the power of artificial intelligence to automate repetitive tasks, streamline workflows, and enable smarter business operations.
+      {/* Hero Section */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gray-50">
+        <div className="container mx-auto text-center px-4">
+          <h1 className="text-4xl font-bold text-gray-800 mb-6">
+            Unlock Efficiency with Intelligent Automation
+          </h1>
+          <p className="text-lg text-gray-600 mb-8">
+            Harness the power of automation to simplify workflows, reduce costs, and accelerate business outcomes.
           </p>
-          <h2 className="text-2xl font-semibold mb-4">Our Automation Capabilities</h2>
-          <ul className="list-disc ml-6 mb-6">
-            <li>**Robotic Process Automation (RPA)**: Automate high-volume, rule-based tasks across various business functions, freeing up valuable human resources for more strategic work.</li>
-            <li>**Intelligent Workflow Automation**: Integrate AI-driven automation within your existing workflows to create seamless and adaptive business processes.</li>
-            <li>**End-to-End Process Automation**: From data entry to complex decision-making processes, our solutions cover a wide range of automation needs.</li>
-            <li>**Automated Data Processing**: Speed up data collection, analysis, and processing with AI-powered tools that reduce errors and improve accuracy.</li>
-            <li>**Predictive Maintenance Automation**: Use AI models to predict equipment failures and automate maintenance schedules to reduce downtime and maintenance costs.</li>
-          </ul>
-          <h2 className="text-2xl font-semibold mb-4">Benefits of Our Automation Solutions</h2>
-          <p className="mb-6">
-            Implementing our AI-powered automation solutions comes with numerous benefits, including:
-          </p>
-          <ul className="list-disc ml-6 mb-6">
-            <li>**Enhanced Productivity**: Automate routine tasks, allowing your team to focus on higher-value work that drives business growth.</li>
-            <li>**Reduced Operational Costs**: Streamline processes to cut down on labor costs and increase overall efficiency.</li>
-            <li>**Improved Accuracy**: Reduce human errors in data processing and other repetitive tasks, ensuring more reliable outputs.</li>
-            <li>**Scalability**: Easily scale automation processes to adapt to growing business needs without significant overhead.</li>
-            <li>**Better Decision-Making**: Leverage AI insights to automate decision-making processes and enhance the quality of business strategies.</li>
-          </ul>
-          <h2 className="text-2xl font-semibold mb-4">Our Approach to Automation</h2>
-          <p className="mb-6">
-            We collaborate closely with your team to understand the intricacies of your business processes and identify areas that would benefit from automation. Our approach includes:
-          </p>
-          <ul className="list-disc ml-6 mb-6">
-            <li>**Initial Process Assessment**: Analyzing current workflows to identify automation opportunities and define clear objectives.</li>
-            <li>**Custom Solution Design**: Developing tailored AI automation strategies that align with your business goals and operational requirements.</li>
-            <li>**Implementation and Testing**: Deploying automation tools with rigorous testing to ensure seamless integration and performance.</li>
-            <li>**Training and Knowledge Transfer**: Equipping your team with the necessary training to manage and monitor automation systems.</li>
-            <li>**Continuous Optimization**: Providing ongoing support and optimization to ensure your automation systems continue to deliver maximum value.</li>
-          </ul>
-          <p className="mb-6">
-            Our team of AI experts is dedicated to helping your business achieve unparalleled efficiency and innovation through automation. We combine the latest AI advancements with a deep understanding of industry practices to deliver powerful and practical automation solutions.
-          </p>
-          <p>
-            Ready to transform your business operations with AI-powered automation? <a href="/contact" className="text-blue-600 underline">Contact us today</a> to learn more and get started.
-          </p>
+          <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
+            Learn More
+          </button>
         </div>
       </section>
+
+      {/* Hero Image */}
+      <div className="container mx-auto my-12 px-4">
+        <img
+          src="/images/automation/hero-automation.png"
+          alt="Automation"
+          className="w-full max-h-[500px] object-cover rounded-lg shadow-lg"
+        />
+      </div>
+
+      {/* Our Capabilities */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-semibold text-gray-800 text-center mb-12">
+            What Automation Can Do for Your Business
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Workflow Automation */}
+            <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/automation/workflow-automation.png"
+                alt="Workflow Automation"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-semibold mb-2">Workflow Automation</h3>
+              <p className="text-gray-600">
+                Optimize your processes for faster execution, improved accuracy, and seamless collaboration.
+              </p>
+            </div>
+
+            {/* Robotic Process Automation */}
+            <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/automation/rpa.png"
+                alt="Robotic Process Automation"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-semibold mb-2">
+                Robotic Process Automation
+              </h3>
+              <p className="text-gray-600">
+                Eliminate repetitive tasks with bots that work tirelessly, ensuring consistent and error-free results.
+              </p>
+            </div>
+
+            {/* AI-Powered Automation */}
+            <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/automation/ai-powered.png"
+                alt="AI-Powered Automation"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-semibold mb-2">
+                AI-Powered Automation
+              </h3>
+              <p className="text-gray-600">
+                Integrate AI into automation processes to predict outcomes, make decisions, and drive smarter operations.
+              </p>
+            </div>
+
+            {/* Predictive Maintenance */}
+            <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/automation/predictive-maintenance.png"
+                alt="Predictive Maintenance"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-semibold mb-2">Predictive Maintenance</h3>
+              <p className="text-gray-600">
+                Reduce downtime and improve equipment lifespan with data-driven insights and automated alerts.
+              </p>
+            </div>
+
+            {/* Process Optimization */}
+            <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/automation/process-optimization.png"
+                alt="Process Optimization"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-semibold mb-2">Process Optimization</h3>
+              <p className="text-gray-600">
+                Identify bottlenecks and implement streamlined solutions for enhanced efficiency.
+              </p>
+            </div>
+
+            {/* Intelligent Document Processing */}
+            <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/automation/document-processing.png"
+                alt="Intelligent Document Processing"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-semibold mb-2">
+                Intelligent Document Processing
+              </h3>
+              <p className="text-gray-600">
+                Automate the extraction, processing, and storage of data from documents with high accuracy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="py-16 bg-blue-50">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6">
+            Why Choose Our Automation Solutions?
+          </h2>
+          <p className="text-lg text-gray-600 mb-8">
+            Unlock key advantages that redefine your business operations.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="p-6">
+              <img
+                src="/images/automation/efficiency.png"
+                alt="Efficiency"
+                className="w-16 h-16 mx-auto mb-4"
+              />
+              <h3 className="text-xl font-bold mb-2">Efficiency Boost</h3>
+              <p className="text-gray-600">
+                Execute tasks faster and with precision, ensuring optimal use of resources.
+              </p>
+            </div>
+            <div className="p-6">
+              <img
+                src="/images/automation/cost-savings.png"
+                alt="Cost Savings"
+                className="w-16 h-16 mx-auto mb-4"
+              />
+              <h3 className="text-xl font-bold mb-2">Cost Savings</h3>
+              <p className="text-gray-600">
+                Reduce operational expenses with intelligent process automation.
+              </p>
+            </div>
+            <div className="p-6">
+              <img
+                src="/images/automation/scalability.png"
+                alt="Scalability"
+                className="w-16 h-16 mx-auto mb-4"
+              />
+              <h3 className="text-xl font-bold mb-2">Scalability</h3>
+              <p className="text-gray-600">
+                Scale operations effortlessly to meet the growing demands of your business.
+              </p>
+            </div>
+            <div className="p-6">
+              <img
+                src="/images/automation/accuracy.png"
+                alt="Accuracy"
+                className="w-16 h-16 mx-auto mb-4"
+              />
+              <h3 className="text-xl font-bold mb-2">Improved Accuracy</h3>
+              <p className="text-gray-600">
+                Eliminate errors and achieve consistent, reliable outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call-to-Action */}
+      <div className="bg-blue-600 py-8 text-center text-white">
+        <h3 className="text-2xl font-semibold mb-4">
+          Ready to Embrace the Power of Automation?
+        </h3>
+        <a
+          href="/contact"
+          className="px-6 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-200 transition"
+        >
+          Contact Us Today
+        </a>
+      </div>
     </>
   );
 }
