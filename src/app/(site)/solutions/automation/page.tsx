@@ -3,7 +3,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Automation Solutions - AI Business Solutions",
-  description: "Discover how intelligent automation can streamline operations, improve efficiency, and drive business growth.",
+  description:
+    "Discover how intelligent automation can streamline operations, improve efficiency, and drive business growth.",
 };
 
 export default function AutomationPage() {
@@ -21,7 +22,8 @@ export default function AutomationPage() {
             Unlock Efficiency with Intelligent Automation
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            Harness the power of automation to simplify workflows, reduce costs, and accelerate business outcomes.
+            Harness the power of automation to simplify workflows, reduce costs,
+            and accelerate business outcomes.
           </p>
           <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
             Learn More
@@ -48,18 +50,29 @@ export default function AutomationPage() {
             {/* Workflow Automation */}
             <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
               <img
+                src="/images/icons/workflow.png"
+                alt="Workflow Automation Icon"
+                className="w-12 h-12 mx-auto mb-4"
+              />
+              <img
                 src="/images/automation/workflow-automation.png"
                 alt="Workflow Automation"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-semibold mb-2">Workflow Automation</h3>
               <p className="text-gray-600">
-                Optimize your processes for faster execution, improved accuracy, and seamless collaboration.
+                Optimize your processes for faster execution, improved accuracy,
+                and seamless collaboration.
               </p>
             </div>
 
             {/* Robotic Process Automation */}
             <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/icons/robot.png"
+                alt="Robotic Process Automation Icon"
+                className="w-12 h-12 mx-auto mb-4"
+              />
               <img
                 src="/images/automation/rpa.png"
                 alt="Robotic Process Automation"
@@ -69,12 +82,18 @@ export default function AutomationPage() {
                 Robotic Process Automation
               </h3>
               <p className="text-gray-600">
-                Eliminate repetitive tasks with bots that work tirelessly, ensuring consistent and error-free results.
+                Eliminate repetitive tasks with bots that work tirelessly,
+                ensuring consistent and error-free results.
               </p>
             </div>
 
             {/* AI-Powered Automation */}
             <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/icons/ai.png"
+                alt="AI-Powered Automation Icon"
+                className="w-12 h-12 mx-auto mb-4"
+              />
               <img
                 src="/images/automation/ai-powered.png"
                 alt="AI-Powered Automation"
@@ -84,25 +103,39 @@ export default function AutomationPage() {
                 AI-Powered Automation
               </h3>
               <p className="text-gray-600">
-                Integrate AI into automation processes to predict outcomes, make decisions, and drive smarter operations.
+                Integrate AI into automation processes to predict outcomes, make
+                decisions, and drive smarter operations.
               </p>
             </div>
 
             {/* Predictive Maintenance */}
             <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
               <img
+                src="/images/icons/predictive.png"
+                alt="Predictive Maintenance Icon"
+                className="w-12 h-12 mx-auto mb-4"
+              />
+              <img
                 src="/images/automation/predictive-maintenance.png"
                 alt="Predictive Maintenance"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold mb-2">Predictive Maintenance</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                Predictive Maintenance
+              </h3>
               <p className="text-gray-600">
-                Reduce downtime and improve equipment lifespan with data-driven insights and automated alerts.
+                Reduce downtime and improve equipment lifespan with data-driven
+                insights and automated alerts.
               </p>
             </div>
 
             {/* Process Optimization */}
             <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/icons/optimization.png"
+                alt="Process Optimization Icon"
+                className="w-12 h-12 mx-auto mb-4"
+              />
               <img
                 src="/images/automation/process-optimization.png"
                 alt="Process Optimization"
@@ -110,12 +143,18 @@ export default function AutomationPage() {
               />
               <h3 className="text-xl font-semibold mb-2">Process Optimization</h3>
               <p className="text-gray-600">
-                Identify bottlenecks and implement streamlined solutions for enhanced efficiency.
+                Identify bottlenecks and implement streamlined solutions for
+                enhanced efficiency.
               </p>
             </div>
 
             {/* Intelligent Document Processing */}
             <div className="p-6 bg-gray-50 shadow-lg rounded-lg">
+              <img
+                src="/images/icons/document.png"
+                alt="Intelligent Document Processing Icon"
+                className="w-12 h-12 mx-auto mb-4"
+              />
               <img
                 src="/images/automation/document-processing.png"
                 alt="Intelligent Document Processing"
@@ -125,7 +164,8 @@ export default function AutomationPage() {
                 Intelligent Document Processing
               </h3>
               <p className="text-gray-600">
-                Automate the extraction, processing, and storage of data from documents with high accuracy.
+                Automate the extraction, processing, and storage of data from
+                documents with high accuracy.
               </p>
             </div>
           </div>
@@ -150,7 +190,8 @@ export default function AutomationPage() {
               />
               <h3 className="text-xl font-bold mb-2">Efficiency Boost</h3>
               <p className="text-gray-600">
-                Execute tasks faster and with precision, ensuring optimal use of resources.
+                Execute tasks faster and with precision, ensuring optimal use of
+                resources.
               </p>
             </div>
             <div className="p-6">
@@ -172,7 +213,8 @@ export default function AutomationPage() {
               />
               <h3 className="text-xl font-bold mb-2">Scalability</h3>
               <p className="text-gray-600">
-                Scale operations effortlessly to meet the growing demands of your business.
+                Scale operations effortlessly to meet the growing demands of your
+                business.
               </p>
             </div>
             <div className="p-6">
