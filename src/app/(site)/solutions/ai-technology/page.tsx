@@ -33,7 +33,7 @@ export default function AITechnologyPage() {
       {/* Hero Image */}
       <div className="container mx-auto my-12 px-4">
         <img
-          src="/images/ai-technology/ai-technology-hero.png"
+          src="/images/ai-technology/heroai.png"
           alt="AI Technology"
           className="w-full max-h-[500px] object-cover rounded-lg shadow-lg"
         />

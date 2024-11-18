@@ -21,6 +21,11 @@ const Header = () => {
     setNavbarOpen(!navbarOpen);
   };
 
+  // Close menu handler
+  const closeNavbarHandler = () => {
+    setNavbarOpen(false);
+  };
+
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
@@ -123,6 +128,7 @@ const Header = () => {
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                             }`}
+                            onClick={closeNavbarHandler} // Close menu on click
                           >
                             {menuItem.title}
                           </Link>
@@ -155,6 +161,7 @@ const Header = () => {
                                     href={submenuItem.path || "#"}
                                     key={index}
                                     className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
+                                    onClick={closeNavbarHandler} // Close menu on submenu click
                                   >
                                     {submenuItem.title}
                                   </Link>
@@ -167,7 +174,6 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-
             </div>
           </div>
         </div>
